@@ -57,8 +57,3 @@ python scripts/training/run_pos.py \
   --max_seq_length=256 \
   --overwrite_cache
 ```
-
-**Contact person:**
-Phillip Rust (p.rust@di.ku.dk)
-
-If you find this repo useful, we would also be happy about a ⭐️ :).
