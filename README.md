@@ -1,4 +1,4 @@
-# PIXEL and BERT
+# PIXEL and BERT for Chinese NER
 
 This repository contains code for **PIXEL** and **BERT** based on the implementation in this repository https://github.com/xplip/pixel/tree/main
 
