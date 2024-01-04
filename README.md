@@ -2,8 +2,6 @@
 
 This repository contains code for **PIXEL** and **BERT** based on the implementation in this repository https://github.com/xplip/pixel/tree/main
 
-For details about PIXEL, please have a look at our paper [Language Modelling with Pixels](https://arxiv.org/abs/2207.06991). Information on how to cite our work can be found at the bottom.
-
 
 ## Setup
 
@@ -97,3 +95,29 @@ python scripts/training/run_ner.py \
   --fallback_fonts_dir=${FALLBACK_FONTS_DIR} \
   --seed=${SEED}
 ```
+
+If everything is configured correctly, you should expect to see results for PIXEL and BERT similar to the following:
+
+## PIXEL Model Performance
+
+- **F1 Score:** 92.28%
+- **Precision:** 90.7%
+- **Recall:** 93.93%
+- **Loss:** 0.2409
+- **Runtime:** 2.05 seconds
+- **Number of Test Samples:** 477
+- **Samples per Second:** 232.155
+- **Steps per Second:** 29.202
+
+## BERT Model Performance
+
+- **Accuracy Score:** 88.21%
+- **F1 Score:** 68.56%
+- **Precision:** 64.44%
+- **Recall:** 73.25%
+- **Loss:** 0.5625
+- **Runtime:** 1.99 seconds
+- **Number of Test Samples:** 477
+- **Samples per Second:** 238.822
+- **Steps per Second:** 30.041
+
