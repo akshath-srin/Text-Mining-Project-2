@@ -45,8 +45,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --no-build-isolation -
 export WANDB_PROJECT="pixel-experiments"
 
 # Settings
-export LANG="chi"
-export DATA_DIR="data/${LANG}"
+export DATA_DIR="chinesedata"
 export FALLBACK_FONTS_DIR="data/fallback_fonts"  # let's say this is where we downloaded the fonts to
 export MODEL="Team-PIXEL/pixel-base" # also works with "bert-base-cased", "roberta-base", etc.
 export SEQ_LEN=196
