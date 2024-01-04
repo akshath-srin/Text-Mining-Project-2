@@ -7,13 +7,8 @@ For details about PIXEL, please have a look at our paper [Language Modelling wit
 
 ## Setup
 
-This codebase is built on [Transformers](https://github.com/huggingface/transformers) for PyTorch. We also took inspiration from the original [ViT-MAE codebase](https://github.com/facebookresearch/mae). The default font `GoNotoCurrent.ttf` that we used for all experiments is a merged Noto font built with [go-noto-universal](https://github.com/satbyy/go-noto-universal).
-
 You can set up this codebase as follows to get started with using PIXEL models:
 
-<details>
-  <summary><i>Show Instructions</i></summary>
-&nbsp;
 
 1. Clone repo and initialize submodules
 ```
